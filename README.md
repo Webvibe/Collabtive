@@ -1,6 +1,6 @@
 What is it ?
 ==============
-Collabtive is a web-based project management software published as free software. It provides an open source alternative to proprietary tools like Basecamp or ActiveCollab.
+A webvi.be custom Collabtive DEVbranch is a web-based project management software published as free software. It provides an open source alternative to proprietary tools like Basecamp or ActiveCollab.
 
 Features
 ==============
