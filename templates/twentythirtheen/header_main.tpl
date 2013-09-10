@@ -42,6 +42,30 @@
 							<li class="logout"><a href="manageuser.php?action=logout"><span>{#logout#}</span></a></li>
 						</ul>
 					{/if}
+
+								<div class="search-wrapper">
+									{*Search*}
+									<div class="content-right-in">
+											<form id = "search" method = "get" action = "managesearch.php" {literal} onsubmit="return validateStandard(this,'input_error');"{/literal}>
+											<fieldset>
+												<div class = "row">
+													<input type="text" class = "text" id="query" name="query" />
+												</div>
+
+												<div id="choices"></div>
+												<input type = "hidden" name = "action" value = "search" />
+
+												<div id="indicator1" style="display:none;"><img src="templates/standard/images/symbols/indicator_arrows.gif" alt="{#searching#}" /></div>
+
+												<button type="submit" title="{#gosearch#}"></button>
+											</fieldset>
+
+											</form>
+									</div>
+									{*Search End*}
+
+								</div>
+
 				</div> <!-- Right End -->
 
 

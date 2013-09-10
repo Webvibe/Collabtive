@@ -142,7 +142,7 @@ td.message ul {
 
 #header-wrapper {
 	width:100%;
-	height: 70px;
+	height: 90px;
 	background: url(../images/color-a.png) repeat 0 0;
 }
 
@@ -198,6 +198,7 @@ td.message ul {
 #mainmenue {
 	padding: 8px 0 0 0;
 	position: relative;
+	float: right;
 }
 
 #mainmenue li {
@@ -2894,3 +2895,10 @@ span.info {
 
 
 /* ## Footer ## end ## */
+
+
+
+/* Custom styles */
+.search-wrapper{
+	margin-top: 50px;
+}
