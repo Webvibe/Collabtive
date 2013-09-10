@@ -19,8 +19,9 @@ html, body {
 
 body {
 	color:#082343;
-	background:#2d6e98 url(../images/main-bg.jpg) repeat-x 0 0;
+	background:url('../images/bg.jpg');
 	background-attachment: fixed;
+	background-size: cover; 
 }
 
 body a, body a:visited {
